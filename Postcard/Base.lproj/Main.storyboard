@@ -67,7 +67,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="7" y="72" width="286" height="61"/>
+                                    <rect key="frame" x="12" y="66" width="286" height="61"/>
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="albert-einstein.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Q7N-7G-lnG">
@@ -104,6 +104,15 @@
                                     <action selector="sendMailButtonPress:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jEA-ev-yYn"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SRH-qW-WCo">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="12" y="126" width="194" height="58"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="7lF-9B-Y8d"/>
                                 <exclude reference="uH2-Ck-Ogd"/>
                                 <exclude reference="NJz-tW-sDy"/>
+                                <exclude reference="SRH-qW-WCo"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="7lF-9B-Y8d"/>
                                 <include reference="uH2-Ck-Ogd"/>
                                 <include reference="NJz-tW-sDy"/>
+                                <include reference="SRH-qW-WCo"/>
                             </mask>
                         </variation>
                     </view>
@@ -132,11 +143,12 @@
                         <outlet property="enterNameTextField" destination="uH2-Ck-Ogd" id="3jf-dV-ON0"/>
                         <outlet property="mailButton" destination="NJz-tW-sDy" id="l6J-wR-ODn"/>
                         <outlet property="messageLabel" destination="xJg-D4-D9q" id="DRX-Mp-ewb"/>
+                        <outlet property="nameLabel" destination="SRH-qW-WCo" id="kWA-uK-jkL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="718.5" y="141.75"/>
+            <point key="canvasLocation" x="702" y="135.75"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6DM-J6-DQz">
